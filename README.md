@@ -1,6 +1,6 @@
 # Usage:
 - Move to the directory where the python file is located
-- `docker run -it -v "$PWD":/app quyvsquy/py3_tensor_num_mat_u"`
+- `docker run -it -v "$PWD":/app quyvsquy/py3_tensor_num_mat_u` or in Windows `docker run -it -v ${PWD}:/app quyvsquy/py3_tensor_num_mat_u`
 - Run file python with: `python3 fileName.py`
 # For matplotlib.pyplot, 2 option
 1. Use `plt.savefig("nameSave")`
